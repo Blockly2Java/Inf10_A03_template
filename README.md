@@ -1,6 +1,6 @@
 # Parameter und Rückgabewerte
 
-Für die meisten Programme ist es unpraktisch, die berechneten Daten jedes Mal in der Konsole auszugeben (`print`) und anschließend wieder über die Konsole einzulesen. Daher können Methoden Übergabewerte (Parameter) und Rückgabewerte (Return Values) haben.
+Für die meisten Programme ist es unpraktisch, die berechneten Daten jedes Mal in der Konsole auszugeben (`print`) und anschließend wieder über die Konsole einzulesen. Daher können Methoden Übergabewerte (Parameter) und Rückgabewerte (Return Values) haben. 
 
 Nicht mehr sich, wie das funktioniert? Unten findest du Beispiele und Erklärungen oder schaue das Simpleclub [Video zu Methoden mit Parameter](https://youtu.be/oSDtCcDXcTM) und/oder das [Video zu Rückgabewerten](https://youtu.be/qQ79aq7HZ-U)
 
@@ -54,7 +54,7 @@ Der erste Wert eines Parameters wird beim Aufruf der entsprechenden Methode jede
 
 ### Beispiel 2: Rückgabewerte
 
-Natürlich können Werte nicht nur vom Aufrufenden an die Methode übergeben werden, sondern auch umgekehrt. Einen solchen Wert nennt man dann Rückgabewert.
+Natürlich können Werte nicht nur vom Aufrufenden an die Methode übergeben werden, sondern auch umgekehrt. Einen solchen Wert nennt man dann Rückgabewert. 
 
 Der Rückgabetyp (also der Typ des Rückgabewerts) wird ebenfalls im Methodenkopf festgelegt und steht immer unmittelbar vor dem Methodennamen. Wenn man keinen Rückgabewert benötigt, gibt man an dieser Stelle den Datentyp `void` an, um es für den Computer deutlich zu machen.
 
