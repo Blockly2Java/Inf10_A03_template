@@ -5,8 +5,8 @@
       {
         "type": "java_static_method_noreturn",
         "id": "0-~]xj!ER5LuqkjtzKSY",
-        "x": 106,
-        "y": 98,
+        "x": 89,
+        "y": 33,
         "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\"></mutation>",
         "icons": {
           "comment": {
@@ -18,8 +18,85 @@
         },
         "fields": {
           "NAME": "main"
+        },
+        "inputs": {
+          "STACK": {
+            "block": {
+              "type": "text_println",
+              "id": "_Gz%-Me#f.7)!}+GVNSJ",
+              "inputs": {
+                "TEXT": {
+                  "shadow": {
+                    "type": "text",
+                    "id": "}ETZitNZW+TuhpmdE27N",
+                    "fields": {
+                      "TEXT": "abc"
+                    }
+                  },
+                  "block": {
+                    "type": "java_static_method_call_return",
+                    "id": "2C#4r$cUs3~a7eI!W3$:",
+                    "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\" method=\"addieren\" args=\"2\" name0=\"z1\" name1=\"z2\"></mutation>",
+                    "inputs": {
+                      "ARG0": {
+                        "block": {
+                          "type": "math_number",
+                          "id": ".?p|*-PX0s,^:CK]EH`r",
+                          "fields": {
+                            "NUM": 1
+                          }
+                        }
+                      },
+                      "ARG1": {
+                        "block": {
+                          "type": "math_number",
+                          "id": "PAxLQ,y}a8Eb/dB,NoO!",
+                          "fields": {
+                            "NUM": 2
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "java_static_method_return",
+        "id": "p{|ssk41RNeM8bD5Wa6G",
+        "x": 62,
+        "y": 167,
+        "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\"><arg name=\"z1\" varid=\"7_1+.r;pu8SJ~:P,Lu[=\"></arg><arg name=\"z2\" varid=\"wvPC/DHL$W5~~mYk=)zy\"></arg></mutation>",
+        "fields": {
+          "NAME": "addieren"
+        },
+        "inputs": {
+          "RETURN": {
+            "block": {
+              "type": "math_number",
+              "id": "/QdzZ!z|x)s;CL:V48qF",
+              "fields": {
+                "NUM": 67
+              }
+            }
+          }
         }
       }
     ]
-  }
+  },
+  "variables": [
+    {
+      "name": "z1",
+      "id": "7_1+.r;pu8SJ~:P,Lu[=",
+      "type": "param"
+    },
+    {
+      "name": "z2",
+      "id": "wvPC/DHL$W5~~mYk=)zy",
+      "type": "param"
+    }
+  ]
 }

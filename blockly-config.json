@@ -4,7 +4,7 @@
   "categories": [
     {
       "name": "Logik",
-      "active": true,
+      "active": false,
       "blocks": [
         {
           "type": "controls_if",
@@ -38,7 +38,7 @@
     },
     {
       "name": "Schleifen",
-      "active": true,
+      "active": false,
       "blocks": [
         {
           "type": "controls_repeat_ext",
@@ -104,7 +104,7 @@
         },
         {
           "type": "math_constrain",
-          "active": true
+          "active": false
         },
         {
           "type": "math_random_int",
@@ -116,7 +116,7 @@
         },
         {
           "type": "math_atan2",
-          "active": true
+          "active": false
         }
       ]
     },
@@ -146,51 +146,51 @@
         },
         {
           "type": "text_join",
-          "active": true
+          "active": false
         },
         {
           "type": "text_append",
-          "active": true
+          "active": false
         },
         {
           "type": "text_length",
-          "active": true
+          "active": false
         },
         {
           "type": "text_isEmpty",
-          "active": true
+          "active": false
         },
         {
           "type": "text_indexOf",
-          "active": true
+          "active": false
         },
         {
           "type": "text_charAt",
-          "active": true
+          "active": false
         },
         {
           "type": "text_getSubstring",
-          "active": true
+          "active": false
         },
         {
           "type": "text_changeCase",
-          "active": true
+          "active": false
         },
         {
           "type": "text_trim",
-          "active": true
+          "active": false
         },
         {
           "type": "text_count",
-          "active": true
+          "active": false
         },
         {
           "type": "text_replace",
-          "active": true
+          "active": false
         },
         {
           "type": "text_reverse",
-          "active": true
+          "active": false
         }
       ]
     },
@@ -246,7 +246,7 @@
     },
     {
       "name": "Farben",
-      "active": true,
+      "active": false,
       "blocks": [
         {
           "type": "colour_picker",
@@ -282,7 +282,7 @@
     },
     {
       "name": "Attribute",
-      "active": true,
+      "active": false,
       "subcategories": [
         {
           "name": "Instanz-Attribute",
@@ -290,7 +290,7 @@
         },
         {
           "name": "Klassen-Attribute",
-          "active": true
+          "active": false
         }
       ]
     },
@@ -301,7 +301,7 @@
     },
     {
       "name": "Methoden",
-      "active": true,
+      "active": false,
       "subcategories": [
         {
           "name": "Objekt-Methoden",
@@ -353,15 +353,15 @@
         },
         {
           "name": "Externe Klassen-Methoden",
-          "active": true,
+          "active": false,
           "blocks": [
             {
               "type": "java_ext_static_call_noreturn",
-              "active": true
+              "active": false
             },
             {
               "type": "java_ext_static_call_return",
-              "active": true
+              "active": false
             }
           ]
         }
@@ -369,7 +369,7 @@
     },
     {
       "name": "Klassen",
-      "active": true,
+      "active": false,
       "blocks": [
         {
           "type": "defconstructor",
@@ -381,17 +381,17 @@
         },
         {
           "type": "java_extends",
-          "active": true
+          "active": false
         },
         {
           "type": "java_super_call",
-          "active": true
+          "active": false
         }
       ]
     },
     {
       "name": "Grafik: Objekte",
-      "active": true,
+      "active": false,
       "blocks": [
         {
           "type": "gfx_extends",
@@ -413,7 +413,7 @@
     },
     {
       "name": "Grafik: Erscheinung",
-      "active": true,
+      "active": false,
       "blocks": [
         {
           "type": "gfx_set_fill_color",
@@ -475,7 +475,7 @@
     },
     {
       "name": "Grafik: Bewegung",
-      "active": true,
+      "active": false,
       "blocks": [
         {
           "type": "gfx_move",
@@ -513,7 +513,7 @@
     },
     {
       "name": "Grafik: Turtle",
-      "active": true,
+      "active": false,
       "blocks": [
         {
           "type": "java_local_var_set",
@@ -547,7 +547,7 @@
     },
     {
       "name": "Grafik: Getter",
-      "active": true,
+      "active": false,
       "blocks": [
         {
           "type": "gfx_get_world",
