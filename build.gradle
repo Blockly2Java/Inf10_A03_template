@@ -1,0 +1,43 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // B2J Graphics Library (provides World, Actor, etc. — default package)
+    implementation 'de.blockly2java:graphics:[0.1.0,)'
+}
+
+sourceSets {
+    main {
+        java { srcDirs 'src', "$buildDir/generated/launcher" }
+    }
+}
+
+application {
+    // Student code uses Main.main() (no args). Thin launcher bridges this.
+    mainClass = 'MainLauncher'
+}
+
+// Generate a thin launcher so 'gradle run' works.
+// Student's Main uses `public static void main()` (no String[] args).
+task generateLauncher {
+    def outFile = file("$buildDir/generated/launcher/MainLauncher.java")
+    outputs.file outFile
+    doLast {
+        outFile.parentFile.mkdirs()
+        outFile.text = 'public class MainLauncher { public static void main(String[] args) { Taschenrechner.main(); } }'
+    }
+}
+
+compileJava.dependsOn generateLauncher
